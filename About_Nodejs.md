@@ -13,6 +13,19 @@ ___
 
 ### Node is Asynchronous
 - The most important thing when learning Node is that it is **asynchronous** (as JavaScript always run in a single thread).
+
+```
+fs.writeFile('somefile.txt', 'Hello World, function (error)
+{console.log("Function ran asynchronously")});'
+
+```
+
 - When a web request comes in it is passed off to as **asynchronous callback handler** and free up the main thread allowing the next process to happen.
+
+```
+fs.writeFileSync('somefile.txt','Hello World');
+console.log("Function ran synchronously and blockedabunch of requests!");
+
+```
 
 ___
