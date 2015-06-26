@@ -8,7 +8,7 @@ This example is about as plain as it can get. It prints the words "Hello World" 
 
 **Hello World**
 
-```
+```javascript
 // Load the http module to create an http server.
 var http = require('http');
 
