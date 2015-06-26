@@ -2,11 +2,12 @@
 Beginning in Node.js
 --------------------
 
-Hello world - Console
+##Hello world - Console
 
 This example is about as plain as it can get. It prints the words "Hello World" to the terminal.
 
 **Hello World**
+___
 
 ```javascript
 // Load the http module to create an http server.
